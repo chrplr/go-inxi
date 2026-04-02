@@ -3,9 +3,14 @@ go-inxi:  get information about your computer system (os, hardware)
 
 This is a port to Go of the Perl tool [inxi](https://github.com/smxi/inxi).
 
-The port was enterily performed by Claude. Not all functionnalities of the original inxi were implemented (by far!) because we tried to remain as cross platform as possible.
+The port was essentially performed by Claude Sonnet 4.6. 
 
-Binaries for different platforms can be downloaded from the releases.
+Not all functionnalities of the original inxi were implemented (by far!) because we tried to remain as cross platform as possible.
+
+Binaries for different platforms are available from the [releases](https://github.com/chrplr/go-inxi/releases).
+
+If macOS pretends no to be able to run them check out [this page](https://chrplr.github.io/note-about-macos-unsigned-apps/)
+
 
 Christophe Pallier
 
@@ -20,9 +25,7 @@ Respecting the original inxi perl script LICENSE.
 
 I could not resist copying here an from inxi's README, which I approve:
 
---------------------------------------------------------------------------------
-APPLE CORPORATION OSX
---------------------------------------------------------------------------------
+### APPLE CORPORATION OSX
 
 Non-free/libre OSX is in my view a BSD in name only. It is the least Unix-like 
 operating system I've ever seen that claims to be a Unix, its tools are mutated, 
@@ -37,9 +40,9 @@ support of non-free operating systems, particularly not one with a market
 capitalization hovering around 1 trillion dollars, with usually well north of 
 100 billion dollars in liquid assetts. 
 
-================================================================================
-MICROSOFT CORPORATION WINDOWS
---------------------------------------------------------------------------------
+
+### MICROSOFT CORPORATION WINDOWS
+
 
 To be quite clear, support for Windows will never happen, I don't care about 
 Windows, and don't want to waste a second of my time on it. I also don't care 
