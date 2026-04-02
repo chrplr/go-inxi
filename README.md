@@ -1,7 +1,21 @@
 go-inxi:  get information about your computer system (os, hardware)
 ===================================================================
 
-This is a port to Go of the Perl tool [inxi](https://github.com/smxi/inxi).
+This is a port to Go of the Perl tool [inxi](https://github.com/smxi/inxi) which reports information about you computer system.
+
+For example, here is the ouput of ./inxi-go ran on my laptop:
+
+```
+Machine:    product: Precision 5490  System: Dell Inc.  Type: laptop
+System:     Host: is158520  Kernel: 6.17.0-19-generic x86_64  Uptime: 7h 48m
+            OS: Ubuntu 25.10  Shell: bash 5.2.37  Desktop: ubuntu:GNOME
+CPU:        Model: Intel(R) Core(TM) Ultra 7 165H  Info: 16 cores / 22 threads  Speed: 1003 MHz (min: 400 / max: 4700)
+Memory:     RAM: total: 30.04 GiB  used: 9.61 GiB (32.0%)  Swap: total: 8.00 GiB  used: 0 KiB (0.0%)
+Graphics:   Card: Intel Corporation Meteor Lake-P [Intel Arc Graphics]  Driver: i915
+            Card: NVIDIA Corporation AD107GLM [RTX 2000 Ada Generation Laptop GPU]  Driver: nvidia
+Audio:      Card: sof-soundwire  Driver: snd_soc_sof_sdw
+            Server: PipeWire  v: 1.4.7  ALSA: k6.17.0-19-generic
+```
 
 The port was essentially performed by Claude Sonnet 4.6. 
 
@@ -12,13 +26,13 @@ Binaries for different platforms are available from the [releases](https://githu
 If macOS pretends no to be able to run them check out [this page](https://chrplr.github.io/note-about-macos-unsigned-apps/)
 
 
-Christophe Pallier
+Christophe Pallier, April 2026
 
 ---
 
 License: GNU General Public License v3 or later — see [LICENSE.txt](LICENSE.txt)
 
-Respecting the original inxi perl script LICENSE. 
+(Respecting the original inxi perl script LICENSE). 
 
 ---
 
